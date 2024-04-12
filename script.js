@@ -1,7 +1,7 @@
 function createTable() {
     //Write your code here
-  let row = prompt("Enter Row Number");
-  let col = prompt("Enter Col Number");
+  let row = prompt("Input number of rows");
+  let col = prompt("Input number of columns");
   row = parseInt(row);
   col = parseInt(col);
   console.log(typeof row);
@@ -10,7 +10,7 @@ function createTable() {
     let row = table.insertRow();
     for (let j = 0; j < col; j++) {
       let cell = row.insertCell();
-      cell.textContent = "Row-" + (i) + ",Column-" + (j);
+      cell.textContent = "Row-" + (i) + " Column-" + (j);
     }
   }
   document.body.appendChild(table);
