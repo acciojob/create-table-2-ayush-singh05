@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+table > tbody{
+border: 1px solid black
+}
+table > th{
+ border: 1px solid black
+}
